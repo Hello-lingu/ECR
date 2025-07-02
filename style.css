@@ -1,0 +1,21 @@
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+input[type="number"] {
+    padding-left: 0.5em;
+}
+
+h1, h2, h3 {
+    display: block;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
