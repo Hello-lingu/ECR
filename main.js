@@ -55,16 +55,16 @@ document.getElementById('submit').addEventListener('click', function() {
 
     switch (maxVar) {
         case "M1":
-            alert("你是安全型依恋");
+            alert("你是安全型依恋,对亲密关系和相互依恋感到安心；乐观，好交际");
             break;
         case "M2":
-            alert("你是焦虑型依恋");
+            alert("你是恐惧型依恋,害怕被抛弃，不信任他人；猜忌多疑，害羞");
             break;
         case "M3":
-            alert("你是回避型依恋");
+            alert("你是焦虑型依恋,对有损亲密关系的任何威胁都不安和警惕；贪婪，嫉妒");
             break;
         case "M4":
-            alert("你是疏离型依恋");
+            alert("你是疏离型依恋，自立，漠视亲密关系；冷淡，独立");
             break;
         default:
             alert("无法识别你的依恋类型");
