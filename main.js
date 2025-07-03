@@ -41,6 +41,8 @@ document.getElementById('submit').addEventListener('click', function() {
     // 计算平均数
     let averageOdd = oddQuestions.reduce((a, b) => a + b, 0) / oddQuestions.length;
     let averageEven = evenQuestions.reduce((a, b) => a + b, 0) / evenQuestions.length;
+    console.log("Odd Questions Average: " + averageOdd);
+    console.log("Even Questions Average: " + averageEven);
 
     let M1 = averageOdd * 3.2893296 + averageEven * 5.4725318 - 11.5307833;
     let M2 = averageOdd * 7.2371075 + averageEven * 8.1776446 - 32.3553266;
@@ -48,6 +50,7 @@ document.getElementById('submit').addEventListener('click', function() {
     let M4 = averageOdd * 7.3654621 + averageEven * 4.9392039 - 22.2281088;
 
     let attachment_type = {M1, M2, M3, M4};
+    console.log("Attachment Types:", attachment_type);
 
     let maxVar = Object.keys(attachment_type).reduce((maxKey, currentKey) => {
         return attachment_type[currentKey] > attachment_type[maxKey] ? currentKey : maxKey;

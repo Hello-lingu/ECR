@@ -19,3 +19,51 @@ button {
     padding: 0.5em 1em;
     font-size: 1em;
 }
+
+.slider-container {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: linear-gradient(to right, blue, red);
+    outline: none;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 17px;
+    height: 17px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: px;
+}
+
+.scale span {
+    font-size: 12px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;;
+    font-size: 16px;
+    cursor: pointer;
+}

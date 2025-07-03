@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
@@ -9,112 +10,436 @@
         <h3>注意：请在安静环境下完成，这里不仅仅是指现在的恋爱经历，它针对的是你所有的恋爱经历中常常体验到的感觉。如果你尚未恋爱，请根据与你最亲近的朋友的交往情况作答。</h3>
         <h3>分值代表你对问题的同意程度，“1”是完全不同意，“4”是不确定，“7”是完全同意</h3>
         <label for="question1">1. 总的来说，我不喜欢让恋人知道自己内心深处的感觉</label>
-        <input type="number" min="1" max="7" id="question1">
+        <input type="range" min="1" max="7" class="slider" id="question1">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question2">2. 我担心我会被抛弃</label>
-        <input type="number" min="1" max="7" id="question2">
+        <input type="range" min="1" max="7" class="slider" id="question2">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question3">3. 我觉得和恋人亲近是一件惬意的事情</label>
-        <input type="number" min="1" max="7" id="question3">
+        <input type="range" min="1" max="7" class="slider" id="question3">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question4">4. 我很担心我的恋爱关系</label>
-        <input type="number" min="1" max="7" id="question4">
+        <input type="range" min="1" max="7" class="slider" id="question4">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question5">5. 当恋人开始要和我亲近时，我发现我自己在退缩</label>
-        <input type="number" min="1" max="7" id="question5">
+        <input type="range" min="1" max="7" class="slider" id="question5">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question6">6. 我担心恋人不会像我关心他/她那样关心我</label>
-        <input type="number" min="1" max="7" id="question6">
+        <input type="range" min="1" max="7" class="slider" id="question6">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question7">7. 当恋人希望跟我非常亲近时，我会觉得不自在</label>
-        <input type="number" min="1" max="7" id="question7">
+        <input type="range" min="1" max="7" class="slider" id="question7">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question8">8. 我有点担心失去恋人</label>
-        <input type="number" min="1" max="7" id="question8">
+        <input type="range" min="1" max="7" class="slider" id="question8">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question9">9. 我觉得对恋人开诚公布，不是一件很舒服的事情</label>
-        <input type="number" min="1" max="7" id="question9">
+        <input type="range" min="1" max="7" class="slider" id="question9">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question10">10. 我常常希望恋人对我的感情和我对恋人的感情一样强烈</label>
-        <input type="number" min="1" max="7" id="question10">
+        <input type="range" min="1" max="7" class="slider" id="question10">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question11">11. 我想与恋人亲近，但我又总是会退缩不前</label>
-        <input type="number" min="1" max="7" id="question11">
+        <input type="range" min="1" max="7" class="slider" id="question11">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question12">12. 我常常想与恋人形影不离，但有时这样会把恋人吓跑</label>
-        <input type="number" min="1" max="7" id="question12">
+        <input type="range" min="1" max="7" class="slider" id="question12">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question13">13. 当恋人和我过分亲密的的时候，我会感到内心紧张</label>
-        <input type="number" min="1" max="7" id="question13">
+        <input type="range" min="1" max="7" class="slider" id="question13">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question14">14. 我担心一个人独处</label>
-        <input type="number" min="1" max="7" id="question14">
+        <input type="range" min="1" max="7" class="slider" id="question14">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question15">15. 我愿意把我内心的想法和感觉告诉恋人，我觉得这是一件自在的事</label>
-        <input type="number" min="1" max="7" id="question15">
+        <input type="range" min="1" max="7" class="slider" id="question15">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question16">16. 我想跟恋人非常亲密的愿望，有时会把恋人吓跑</label>
-        <input type="number" min="1" max="7" id="question16">
+        <input type="range" min="1" max="7" class="slider" id="question16">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question17">17. 我试图避免与恋人变得太亲近</label>
-        <input type="number" min="1" max="7" id="question17">
+        <input type="range" min="1" max="7" class="slider" id="question17">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question18">18. 我需要我的恋人一再保证他/她是爱我的</label>
-        <input type="number" min="1" max="7" id="question18">
+        <input type="range" min="1" max="7" class="slider" id="question18">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question19">19. 我觉得我比较容易与恋人亲近</label>
-        <input type="number" min="1" max="7" id="question19">
+        <input type="range" min="1" max="7" class="slider" id="question19">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question20">20. 我感觉自己在要求恋人把更多的感觉，以及对恋爱关系的投入程度表现出来</label>
-        <input type="number" min="1" max="7" id="question20">
+        <input type="range" min="1" max="7" class="slider" id="question20">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question21">21. 我发现让我依赖恋人是一件困难的事情</label>
-        <input type="number" min="1" max="7" id="question21">
+        <input type="range" min="1" max="7" class="slider" id="question21">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question22">22. 我并不是常常担心被恋人抛弃</label>
-        <input type="number" min="1" max="7" id="question22">
+        <input type="range" min="1" max="7" class="slider" id="question22">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question23">23. 我倾向与不跟恋人过分亲密</label>
-        <input type="number" min="1" max="7" id="question23">
+        <input type="range" min="1" max="7" class="slider" id="question23">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question24">24. 如果我无法得到恋人的注意和关心，我会心烦意乱或者生气</label>
-        <input type="number" min="1" max="7" id="question24">
+        <input type="range" min="1" max="7" class="slider" id="question24">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question25">25. 我跟恋人什么事情都讲</label>
-        <input type="number" min="1" max="7" id="question25">
+        <input type="range" min="1" max="7" class="slider" id="question25">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question26">26. 我发现恋人并不愿意像我所想的那样跟我亲近</label>
-        <input type="number" min="1" max="7" id="question26">
+        <input type="range" min="1" max="7" class="slider" id="question26">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question27">27. 我经常与恋人讨论我所遇到的问题以及我关心的事情</label>
-        <input type="number" min="1" max="7" id="question27">
+        <input type="range" min="1" max="7" class="slider" id="question27">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question28">28. 如果我还没有恋人的话，我会感到有点儿焦虑和不安</label>
-        <input type="number" min="1" max="7" id="question28">
+        <input type="range" min="1" max="7" class="slider" id="question28">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question29">29. 我觉得依赖恋人是很自在的事情</label>
-        <input type="number" min="1" max="7" id="question29">
+        <input type="range" min="1" max="7" class="slider" id="question29">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question30">30. 如果恋人不能像我所希望的那样在我身边，我会感到灰心丧气</label>
-        <input type="number" min="1" max="7" id="question30">
+        <input type="range" min="1" max="7" class="slider" id="question30">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question31">31. 我并不介意从恋人那里寻找安慰，听取劝告，得到帮助</label>
-        <input type="number" min="1" max="7" id="question31">
+        <input type="range" min="1" max="7" class="slider" id="question31">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question32">32. 如果在我需要的时候，恋人却不在我身边，我会感到沮丧</label>
-        <input type="number" min="1" max="7" id="question32">
+        <input type="range" min="1" max="7" class="slider" id="question32">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question33">33. 在需要的时候，我想恋人求助，是很有用的</label>
-        <input type="number" min="1" max="7" id="question33">
+        <input type="range" min="1" max="7" class="slider" id="question33">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question34">34. 当恋人不赞同我时，我觉得确实是我不好</label>
-        <input type="number" min="1" max="7" id="question34">
+        <input type="range" min="1" max="7" class="slider" id="question34">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question35">35. 我会在很多事情上向恋人求助，包括寻求安慰和得到承诺</label>
-        <input type="number" min="1" max="7" id="question35">
+        <input type="range" min="1" max="7" class="slider" id="question35">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <label for="question36">36. 当恋人不花时间和我在一起时，我会感到怨恨</label>
-        <input type="number" min="1" max="7" id="question36">
+        <input type="range" min="1" max="7" class="slider" id="question36">
+        <div class="scale">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+        </div>
         <br>
         <button id="submit">提交</button>
     </body>
