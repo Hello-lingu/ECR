@@ -64,7 +64,7 @@ document.getElementById('submit').addEventListener('click', function() {
             alert("你是回避型依恋");
             break;
         case "M4":
-            alert("你是混合型依恋");
+            alert("你是疏离型依恋");
             break;
         default:
             alert("无法识别你的依恋类型");
